@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAGAshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/icon/menu-hamburguesa.png" class="menu-hamburguesa" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">carrito</a></li>
+                    <li><a href="#">pedido</a></li>
+                    <li><a href="#">productos</a></li>
+                    <li><a href="#">soporte</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/icon/bolsa-de-la-compra.png" id="bolsa" alt="bolsa">
+                        <div id="bolsa">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Bolsa</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="img/fondo.jpg" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas</h1>
+                <p>estrena las mejores prendas y productos</p>
+                <a href="#" class="btn-1">informacion</a>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="ofrt container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/productos/hogar/dormitorio/D1.jpeg" alt=""><!--agregar imagende oferta-->
+            </div>
+            <div class="ofert-txt">
+                <h3>Lampara de Luna</h3>
+                <a href="#" class="btn-2">informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/productos/hombre/accesorios/AH1.jpeg" alt=""><!--agregar imagende oferta-->
+            </div>
+            <div class="ofert-txt">
+                <h3>Reloj Black Titanium</h3>
+                <a href="#" class="btn-2">informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/productos/mujer/ropa/VM1.jpeg" alt=""><!--agregar imagende oferta-->
+            </div>
+            <div class="ofert-txt">
+                <h3>Vestido Corto</h3>
+                <a href="#" class="btn-2">informacion</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="product container" id="lista-1">
+        
+        <h2>Productos</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="img/productos/hogar/cosina/C1.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-bolsa btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/productos/hombre/ropa/FH1.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-bolsa btn-2" data-id="2">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/productos/mujer/accesorios/AM10.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-bolsa btn-2" data-id="3">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/productos/hogar/sala/S1.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-bolsa btn-2" data-id="4">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/productos/mujer/ropa/LM3.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-bolsa btn-2" data-id="5">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/productos/hogar/baño/B3.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Elisyum</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-bolsa btn-2" data-id="6">Agregar</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="icons container">
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/icon/circulo-de-usuario.png" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem, ipsum dolor sit.</h3>
+                <p>
+                    amet consecteur adipsicing elit
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/icon/corazon (1).png" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem, ipsum dolor sit.</h3>
+                <p>
+                    amet consecteur adipsicing elit
+                </p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/icon/corazon (2).png" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Lorem, ipsum dolor sit.</h3>
+                <p>
+                    amet consecteur adipsicing elit
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blog container">
+
+        <div class="blog-1">
+               <img src="img/icon/busqueda.png" alt="">
+               <h3>blog 1</h3>
+               <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus eos corporis cum ratione quidem, 
+                optio rerum nisi minima doloribus sapiente iusto voluptatum atque veritatis dolorum pariatur totam tenetur adipisci.
+                </p> 
+        </div>
+        <div class="blog-1">
+            <img src="img/icon/corazon.png" alt="">
+            <h3>blog 2</h3>
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus eos corporis cum ratione quidem, 
+             optio rerum nisi minima doloribus sapiente iusto voluptatum atque veritatis dolorum pariatur totam tenetur adipisci.
+             </p> 
+     </div>
+     <div class="blog-1">
+        <img src="img/icon/circulo-de-usuario.png" alt="">
+        <h3>blog 3</h3>
+        <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus eos corporis cum ratione quidem, 
+         optio rerum nisi minima doloribus sapiente iusto voluptatum atque veritatis dolorum pariatur totam tenetur adipisci.
+         </p> 
+ </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-content-contairen">
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="scrip.js"></script>
+</body>
+</html>
