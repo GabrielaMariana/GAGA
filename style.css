@@ -41,7 +41,7 @@ img{
     justify-content: space-between;
 }
 .logo{
-    font-size: 25px;
+    font-size: 10px;
     color: black;
     text-transform: uppercase;
     font-weight: 800;
@@ -60,18 +60,18 @@ img{
 #menu{
     display: none;
 }
-.menu-hamburguesa{
+.menu{
     cursor: pointer;
     display: none;
 }
 .submenu{
     position: relative;
 }
-.submenu #bolsa{
+.submenu #carrito{
     display: none;
 }
 
-.submenu:hover #bolsa{
+.submenu:hover #carrito{
     display: block;
     position: absolute;
     right: 0;
